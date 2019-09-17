@@ -180,7 +180,7 @@ mariadb:
       ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
       ##   GKE, AWS & OpenStack)
       ##
-      storageClass: "rook-ceph-delete-bucket"
+      storageClass: "sdc-ontab-ssd"
       accessMode: ReadWriteOnce
       size: 8Gi
 
@@ -303,7 +303,7 @@ persistence:
   ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
   ##   GKE, AWS & OpenStack)
   ##
-  storageClass: "rook-ceph-delete-bucket"
+  storageClass: "sdc-ontap-ssd"
   ##
   ## If you want to reuse an existing claim, you can pass the name of the PVC using
   ## the existingClaim variable
